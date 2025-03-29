@@ -1,5 +1,7 @@
 import type { Preview } from "@storybook/react";
 
+import "../unistyles";
+
 const preview: Preview = {
   parameters: {
     // actions: { argTypesRegex: "^on[A-Z].*" },
@@ -11,7 +13,7 @@ const preview: Preview = {
     },
   },
 
-  tags: ["autodocs"]
+  tags: ["autodocs"],
 };
 
 export default preview;

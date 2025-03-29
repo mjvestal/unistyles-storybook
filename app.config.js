@@ -16,6 +16,7 @@ export default ({ config }) => ({
   },
   assetBundlePatterns: ["**/*"],
   ios: {
+    bundleIdentifier: "com.mjvestal.expotemplateblanktypescript",
     supportsTablet: true,
   },
   android: {
@@ -23,6 +24,7 @@ export default ({ config }) => ({
       foregroundImage: "./assets/adaptive-icon.png",
       backgroundColor: "#FFFFFF",
     },
+    package: "com.mjvestal.expotemplateblanktypescript",
   },
   web: {
     favicon: "./assets/favicon.png",
