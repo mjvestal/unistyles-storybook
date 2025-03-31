@@ -14,7 +14,13 @@ const main: StorybookConfig = {
 
   framework: {
     name: "@storybook/react-native-web-vite",
-    options: {},
+    options: {
+      pluginReactOptions: {
+        babel: {
+          plugins: ["react-native-unistyles/plugin"],
+        },
+      },
+    },
   },
 
   docs: {},

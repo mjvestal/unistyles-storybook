@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 
+import "./unistyles";
+
 function App() {
   return (
     <View style={styles.container}>

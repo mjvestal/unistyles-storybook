@@ -15,13 +15,13 @@ export const MyButton = ({ onPress, text }: MyButtonProps) => {
   );
 };
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create((theme) => ({
   container: {
     paddingHorizontal: 32,
     paddingVertical: 8,
-    backgroundColor: "purple",
+    backgroundColor: theme.colors.primary,
     alignSelf: "flex-start",
     borderRadius: 8,
   },
   text: { color: "white", fontSize: 16, fontWeight: "bold" },
-});
+}));
